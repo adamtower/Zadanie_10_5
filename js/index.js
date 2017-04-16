@@ -10,7 +10,6 @@ $(document).ready(function() {
           this.$element.text(this.text);
           this.$element.click(function() {
             alert(self.text);
-            btn1.create();
           });
           this.$element.appendTo($('body'));
         }
